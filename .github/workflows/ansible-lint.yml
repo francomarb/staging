@@ -21,4 +21,4 @@ jobs:
       - name: Ansible Lint
         uses: ansible/ansible-lint-action@master
         with:
-          targets: "roles"
+          targets: ./roles/**/*.yml
