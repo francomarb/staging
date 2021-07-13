@@ -29,4 +29,4 @@ jobs:
         run: ./operator-sdk bundle validate ./bundle
 
       - name: Check PR sanity
-        run: ls -la ; git branch ; ls -la bundle/ ; cat bundle/file
+        run: ls -la ; git branch ; git remote -v ; ls -la bundle/ ; cat bundle/file
