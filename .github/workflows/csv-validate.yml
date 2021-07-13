@@ -22,7 +22,6 @@ jobs:
       - name: Checkout PR branch
         uses: actions/checkout@v2
         with:
-          fetch-depth: '5'
           ref: ${{ github.event.pull_request.head.sha }}
 
       - name: Get Operator SDK
