@@ -41,7 +41,7 @@
       state: present
       definition: "{{ lookup('template', item) }}"
     with_fileglob: "templates/provisioner-*.j2"
-      
+
   - when: feature_validation|bool
     block:
     - name: "Setup validation deployment"
