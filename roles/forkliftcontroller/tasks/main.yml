@@ -48,7 +48,7 @@
       k8s:
         state : present
         definition: "{{ lookup('template', 'deployment-validation.yml.j2') }}"
-  
+
     - name: "Setup validation service"
       k8s:
         state : present
