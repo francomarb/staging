@@ -1,7 +1,7 @@
 ---
 - block:
 
-  - name: "Setup the webhook secretsssa"
+  - name: "Setup the webhook secrets"
     k8s:
       state: present
       definition: "{{ lookup('template', 'secret-webhook-server-secret.yml.j2') }}"
