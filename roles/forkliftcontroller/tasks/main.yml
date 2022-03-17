@@ -1,6 +1,9 @@
 ---
 - block:
 
+    blah,
+    error:
+
   - name: "Setup the webhook secret"
     k8s:
       state: present
