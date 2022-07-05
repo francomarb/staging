@@ -1,9 +1,5 @@
 ---
 - block:
-
-  - name
-    basd_stuff:
-
   - name: "Set UI feature state blah"
     set_fact:
       ui_state: "present"
