@@ -2,6 +2,7 @@
 
 warn_list:  # or 'skip_list' to silence them completely
   - yaml
+  - unnamed-task
 
 skip_list:
   - experimental
