@@ -5,3 +5,4 @@ warn_list:  # or 'skip_list' to silence them completely
 
 skip_list:
   - experimental
+  - fqcn-builtins
