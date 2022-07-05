@@ -1,7 +1,7 @@
 ---
 - block:
 
-  - name: "Set UI feature state blah"
+  - name: "Set UI feature state blah bleh"
     set_fact:
       ui_state: "present"
     when: feature_ui|bool
